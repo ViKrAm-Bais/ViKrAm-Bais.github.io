@@ -1,0 +1,360 @@
+
+
+/*
+
+.navbar-nav.navbar-center {
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 6vh;
+  background: white;
+  background-size: auto;
+  border-radius: 40px;
+}
+
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  text-transform: uppercase;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+nav ul li{
+  list-style: none;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: green;
+}
+
+
+nav ul li :hover{
+  background: blue;
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  text-transform: uppercase;
+  height: 6vh;
+  background: white;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul li{
+  list-style: none;
+  float: left;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+
+.home_div{
+  height: 100vh;
+  //background: rgb(6, 24, 47);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //background: rgb(0, 72, 107);
+  background-image: url("/img/bg5.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.my_image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.my_image img{
+  height: auto;
+  width: 300px;
+  border-radius: 300px;
+  background: green;
+}
+.about_me{
+  margin-top: 2%;
+}
+.about_me  h1 {  color: white; }
+.about_me  h3 {  color: rgb(165, 185, 212); }
+
+#skills
+{
+  text-align: center;
+  color: black;
+  font-size: 40px;
+}
+
+.my_skills{
+  height: 100vh;
+  background: white;
+  justify-content: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.head_sub_skills{
+  font-size: 26px;
+}
+.sub_skills{
+  font-size: 20px;
+}
+.languages ul li span i{
+  font-size: 16px;
+}
+
+.education{
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #12232e;
+}
+.sub_education{
+  align-items: center;
+  justify-content: center
+}
+.sub_education h1{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+.edu_details{
+    padding-top: 20px;
+}
+.edu_list{
+  list-style: none;
+  background: rgb(227, 236, 241);
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+}
+.edu_list li{
+  font-size: 20px;
+}
+
+
+.intern{
+  height: 50vh;
+  background: white;
+}
+
+.sub_intern{
+  padding-top: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
+  max-width: 60%;
+  align-items: center;
+  justify-content: center;
+}
+.intern_name{
+  padding: 10px;
+}
+.intern_list{
+  background: #12232e;
+  list-style: none;
+  padding: 20px;
+  border-radius: 20px;
+}
+.intern_list li{
+  color: white;
+}
+.sub_intern h1{
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.experience{
+  height:auto;
+  background: #12232e;
+  padding-bottom: 20px;
+}
+.sub_exp{
+  padding-top: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
+  max-width: 60%;
+  align-items: center;
+  justify-content: center;
+}
+.exp_name{
+  padding: 10px;
+}
+.exp_list{
+  background: white;
+  list-style: none;
+  padding: 20px;
+  border-radius: 20px;
+}
+.exp_list li{
+  color: black;
+}
+.sub_exp h1{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.all_projects{
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;                        //main background
+}
+
+.all_projects_sub{
+  padding-top: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
+  max-width: 60%;
+  align-items: center;
+  justify-content: center;
+}
+
+.all_projects_sub h1{
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.project{
+  width: 100%;
+  height: auto;
+  background: #12232e;                       // project inside background
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.pro_image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.pro_image img{
+  height: auto;
+  width: 90%;
+  border-radius: 20px;
+}
+
+.pro_content{
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-right: 10px;
+  font-size: 20px;
+  color: white;
+}
+#contact{
+  text-align: center;
+  color: black;
+  font-size: 40px;
+}
+.contact{
+}
+.blue_container{
+  width: 100%;
+  padding: 100px;
+  margin-top:
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+.sub_skills {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sub_skills li{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.head_sub_skills{
+  text-align: center;
+}
+
+.pro_content{
+  margin-top: 20px;
+  float: left;
+}
+
+.contact ul{
+  list-style: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.contact ul li{
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.contact ul li span i{
+  font-size: 60px;
+}
+.contact ul li span a{
+  color: #12232e;
+}
+.contact ul li :hover{
+  color: rgb(143, 197, 200);
+}
+.contact_icons{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.the_end{
+  width: 100%;
+  height: 25px;
+  background: rgb(3, 22, 34);
+}
