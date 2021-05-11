@@ -84,17 +84,22 @@ nav ul li{
   padding-right: 1vw;
 }
 
-
 .home_div{
   height: 100vh;
-  //background: rgb(6, 24, 47);
   display: flex;
   align-items: center;
   justify-content: center;
-  //background: rgb(0, 72, 107);
   background-image: url("/img/bg5.jpg");
   background-repeat: no-repeat;
   background-size: auto;
+}
+.sub_home_div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .my_image{
   display: flex;
@@ -103,12 +108,15 @@ nav ul li{
 }
 .my_image img{
   height: auto;
-  width: 300px;
+  width: 350px;
   border-radius: 300px;
-  background: green;
 }
 .about_me{
-  margin-top: 2%;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.about_me h1{
+  font-size: 60px;
 }
 .about_me  h1 {  color: white; }
 .about_me  h3 {  color: rgb(165, 185, 212); }
@@ -152,6 +160,12 @@ nav ul li{
 .sub_skills li{
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.sub_skills :hover{
+  background: rgb(209, 222, 228);
+  border-radius: 20px;
 }
 .sub_skills li img{
   width: 30px;
