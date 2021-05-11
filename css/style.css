@@ -140,6 +140,7 @@ nav ul li{
 
 .education{
   height: 100vh;
+  padding-top: 20px;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -148,7 +149,10 @@ nav ul li{
 }
 .sub_education{
   align-items: center;
-  justify-content: center
+  justify-content: center;
+  max-width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 .sub_education h1{
   text-align: center;
@@ -160,13 +164,14 @@ nav ul li{
 }
 .edu_list{
   list-style: none;
-  background: rgb(227, 236, 241);
+  //background: rgb(227, 236, 241);
   color: black;
   padding: 20px;
-  border-radius: 10px;
+  //border-radius: 10px;
 }
 .edu_list li{
   font-size: 20px;
+  color: white;
 }
 
 
@@ -187,13 +192,13 @@ nav ul li{
   padding: 10px;
 }
 .intern_list{
-  background: #12232e;
+  //background: #12232e;
   list-style: none;
   padding: 20px;
-  border-radius: 20px;
+  //border-radius: 20px;
 }
 .intern_list li{
-  color: white;
+  color: black;
 }
 .sub_intern h1{
   text-align: center;
@@ -205,7 +210,6 @@ nav ul li{
 .experience{
   height:auto;
   background: #12232e;
-  padding-bottom: 20px;
 }
 .sub_exp{
   padding-top: 50px;
@@ -219,13 +223,13 @@ nav ul li{
   padding: 10px;
 }
 .exp_list{
-  background: white;
+  //background: white;
   list-style: none;
   padding: 20px;
-  border-radius: 20px;
+  //border-radius: 20px;
 }
 .exp_list li{
-  color: black;
+  color: white;
 }
 .sub_exp h1{
   text-align: center;
@@ -276,7 +280,7 @@ nav ul li{
 
 .pro_image img{
   height: auto;
-  width: 90%;
+  width: 100%;
   border-radius: 20px;
 }
 
@@ -285,7 +289,7 @@ nav ul li{
   justify-content: center;
   width: 100%;
   padding-right: 10px;
-  font-size: 20px;
+  font-size: 16px;
   color: white;
 }
 #contact{
@@ -316,6 +320,13 @@ nav ul li a{
 .sub_skills li{
   padding-left: 10px;
   padding-right: 10px;
+}
+.sub_skills li img{
+  width: 24px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  margin-right: 4px;
 }
 .head_sub_skills{
   text-align: center;
