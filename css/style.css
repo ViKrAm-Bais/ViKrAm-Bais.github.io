@@ -121,12 +121,14 @@ nav ul li{
 }
 
 .my_skills{
-  height: 100vh;
+  height: auto;
   background: white;
   justify-content: center;
   position: relative;
   display: flex;
   flex-direction: column;
+  padding-bottom: 20px;
+  padding-top: 40px;
 }
 .head_sub_skills{
   font-size: 26px;
@@ -286,7 +288,7 @@ nav ul li{
 .pro_image img{
   height: auto;
   width: 100%;
-  border-radius: 20px;
+  border-radius: 16px;
 }
 
 .pro_content{
