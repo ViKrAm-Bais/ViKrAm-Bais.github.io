@@ -139,13 +139,14 @@ nav ul li{
 }
 
 .education{
-  height: 100vh;
-  padding-top: 20px;
+  height: auto;
   align-items: center;
   display: flex;
   justify-content: center;
   width: 100%;
   background: #12232e;
+  padding-bottom: 20px;
+  padding-top: 40px;
 }
 .sub_education{
   align-items: center;
@@ -174,14 +175,16 @@ nav ul li{
   color: white;
 }
 
-
 .intern{
-  height: 50vh;
+  height: auto;
   background: white;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .sub_intern{
-  padding-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin-left: 20%;
   margin-right: 20%;
   max-width: 60%;
@@ -210,6 +213,8 @@ nav ul li{
 .experience{
   height:auto;
   background: #12232e;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 .sub_exp{
   padding-top: 50px;
@@ -358,7 +363,7 @@ nav ul li a{
   color: #12232e;
 }
 .contact ul li :hover{
-  color: rgb(143, 197, 200);
+  color: #c84b5f;
 }
 .contact_icons{
   padding-top: 20px;
