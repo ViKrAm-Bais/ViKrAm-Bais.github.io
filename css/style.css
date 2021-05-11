@@ -135,10 +135,35 @@ nav ul li{
 }
 .sub_skills{
   font-size: 20px;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 .languages ul li span i{
   font-size: 16px;
 }
+.sub_skills {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.sub_skills li{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.sub_skills li img{
+  width: 30px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  margin-right: 4px;
+}
+.head_sub_skills{
+  text-align: center;
+}
+
 
 .education{
   height: auto;
@@ -318,26 +343,7 @@ nav ul li a{
   font-size: 15px;
 }
 
-.sub_skills {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.sub_skills li{
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.sub_skills li img{
-  width: 24px;
-  height: auto;
-  align-items: center;
-  justify-content: center;
-  margin-right: 4px;
-}
-.head_sub_skills{
-  text-align: center;
-}
+
 
 .pro_content{
   margin-top: 20px;
