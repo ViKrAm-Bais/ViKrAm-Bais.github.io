@@ -120,6 +120,9 @@ nav ul li{
 }
 .about_me  h1 {  color: white; }
 .about_me  h3 {  color: rgb(165, 185, 212); }
+.about_me  h3 :hover{
+  color: rgb(100, 165, 189);
+}
 
 #skills
 {
@@ -156,6 +159,7 @@ nav ul li{
   justify-content: center;
   padding-top: 10px;
   padding-bottom: 10px;
+  cursor: pointer;
 }
 .sub_skills li{
   padding-left: 20px;
@@ -164,8 +168,8 @@ nav ul li{
   padding-bottom: 4px;
 }
 .sub_skills :hover{
-  background: rgb(209, 222, 228);
-  border-radius: 20px;
+  background: rgb(187, 211, 222);
+  border-radius: 5px;
 }
 .sub_skills li img{
   width: 30px;
@@ -177,7 +181,6 @@ nav ul li{
 .head_sub_skills{
   text-align: center;
 }
-
 
 .education{
   height: auto;
@@ -215,7 +218,12 @@ nav ul li{
   font-size: 20px;
   color: white;
 }
-
+.course_edu{
+  color: rgb(208, 238, 242);
+}
+.duration_edu{
+  color: rgb(149, 207, 213);
+}
 .intern{
   height: auto;
   background: white;
@@ -314,7 +322,8 @@ nav ul li{
   background: #12232e;                       // project inside background
   margin-top: 20px;
   margin-bottom: 20px;
-  border-radius: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 2px black;
 }
 
 .pro_image{
