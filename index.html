@@ -2,198 +2,295 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Latest compiled and minified CSS -->
+    <title>my_site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
-    <!-- jQuery library -->
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-    <title>vikram_bais</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
   </head>
   <body>
+    <div class="container wholepage ">
 
-      <nav class="navbar navbar-fixed-top">
-        <ul class="navbar-nav navbar-center ">
-          <li> <a href="#home">Home</a> </li>
-          <li> <a href="#skill">Skills</a> </li>
-          <li> <a href="#education">Education</a> </li>
-          <li> <a href="#intern">Internship</a> </li>
-          <li> <a href="#experience">Experience</a> </li>
-          <li> <a href="#all_project">Projects</a> </li>
-          <li> <a href="#contact">Contact</a> </li>
-        </ul>
-    </nav>
+      <nav class="navbar navbar-default navbar-fixed-top justify-content-center">
+        <div class="container-fluid ">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse justify-content-center" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="nav-item"><a class="navbarfont" href="#home"><span class="navbaricon glyphicon glyphicon-home space_h"></span>Home</a> </li>
+            <!-- <li class="nav-item"><a href="#about"><span class="glyphicon glyphicon-user space_h"></span>About</a> </li> -->
+            <li class="nav-item"><a class="navbarfont"  href="#skill"><span class="navbaricon glyphicon glyphicon-pencil space_h"></span>Skills</a> </li>
+            <li class="nav-item"><a class="navbarfont"  href="#education"><span class="navbaricon glyphicon glyphicon-book space_h"></span>Education</a> </li>
+            <li class="nav-item"><a  class="navbarfont" href="#intern"><span class="navbaricon glyphicon glyphicon-folder-open space_h"></span>Internships & Experiences</a> </li>
+            <li class="nav-item"><a  class="navbarfont" href="#all_project"><span class="navbaricon glyphicon glyphicon-cog space_h"></span>Projects</a> </li>
+            <li class="nav-item"><a  class="navbarfont" href="#contact"><span class="navbaricon glyphicon glyphicon-link space_h"></span>Contact</a> </li>
+            <li class="nav-item"><a  class="navbarfont" href="https://drive.google.com/file/d/1bYlTymrCy9dF0H00Rr2Z6qCNi_Kq79n6/view?usp=sharing"><span class="navbaricon glyphicon glyphicon-file space_h"></span>Resume</a> </li>
+<!-- ../pdf.html -->
+<!-- https://drive.google.com/file/d/1bYlTymrCy9dF0H00Rr2Z6qCNi_Kq79n6/view?usp=sharing -->
+          </ul>
+          </div>
+        </div>
+      </nav>
 
-    <div class="home_div row blue_container" id="home">
-      <div class="sub_home_div">
-        <div class="my_image col-sm-5 offset-sm-2 image-fluid">
-          <img class="rounded" src="img/vikrambais.jpg" alt="">
+      <div class="container-fluid home_page page" id="homehome">
+        <div class="container-fluid ">
+
+
+        <div class="row" >
+          <div class="col-lg-2 col-sm-2">
+            <!-- <button type="button" class="btn btn-info" name="button">Linkedin</button> -->
+          </div>
+          <div class="col-lg-3 col-sm-3 my_image colcenter">
+            <img src="img/vikrambais.jpg" class="img-circle img-responsive" alt="prof">
+          </div>
+          <div class="col-lg-5 col-sm-5 colcenter">
+            <div class="my_info">
+              <h1>Hello, I'm Vikram Bais</h1>
+              <h3>Cometitive programmer, Opensource enthusiast, AI/ML enthusiast</h3>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-2">
+          </div>
         </div>
-        <div class="about_me col-sm-7 offset-sm-2">
-          <h1>Vikram Bais</h1>
-          <h3>I am Competitive programmer, Opensource enthusiast</h3>
+      </div>
+      </div>
+
+      <div class="container-fluid ptop pbot skills_class" id="skill">
+        <h1 class="text-center color_black">Skills</h1>
+        <h3 class="text-center ptop color_black">Languages</h3>
+        <div class="">
+          <div class="languages row">
+            <div class="col-sm-4 colcenter"></div>
+            <div class="col-sm-1 colcenter">
+                <div class="icon-box justify-content-center">
+                   <img class="tech-icon" src="img/icons/cpp.png">
+                    <h3>C++</h3>
+                </div>
+            </div>
+            <div class="col-sm-1 colcenter">
+                <div class="icon-box justify-content-center">
+                    <img class="tech-icon" src="img/icons/java.png">
+                    <h3>Java</h3>
+                </div>
+            </div>
+            <div class="col-sm-1 colcenter">
+                <div class="icon-box justify-content-center">
+                    <img class="tech-icon" src="img/icons/python.png">
+                    <h3>Python</h3>
+                </div>
+            </div>
+            <div class="col-sm-1 colcenter">
+                <div class="icon-box justify-content-center">
+                    <img class="tech-icon" src="img/icons/c.png">
+                    <h3>C</h3>
+                </div>
+            </div>
+              <div class="col-sm-4 colcenter "></div>
         </div>
+      </div>
+
+
+      <h3 class="text-center ptop color_black">Topics</h3>
+      <div class="">
+        <div class="languages row">
+          <div class="col-sm-4 colcenter"></div>
+          <div class="col-sm-2 colcenter">
+              <div class="icon-box justify-content-center">
+                  <h3>Data Structure and Algorithms</h3>
+              </div>
+          </div>
+
+          <div class="col-sm-2 colcenter">
+              <div class="icon-box justify-content-center">
+                  <h3>Machine Learning</h3>
+              </div>
+          </div>
+            <div class="col-sm-4 colcenter"></div>
       </div>
     </div>
 
-    <div class="my_skills row" id="skill">
-      <h1 id="skills">Skills</h1>
-      <div class="skills_sub_heading">
-        <h2 class="head_sub_skills">Languages</h2>
-        <ul class="sub_skills">
-          <li><img src="img/icons/cpp.png" alt="">C++</li>
-          <li><img src="img/icons/python.png" alt="">Python</li>
-          <li><img src="img/icons/java.png" alt="">Java</li>
-          <li><img src="img/icons/c.png" alt="">C</li>
 
-          <!--  <span><i class="fa fa-python"></i></span> -->
-        </ul>
 
+
+    <h3 class="text-center ptop color_black">Tools</h3>
+    <div class="">
+      <div class="languages row">
+        <div class="col-sm-4 col"></div>
+        <div class="col-sm-1 colcenter">
+            <div class="icon-box justify-content-center">
+               <img class="tech-icon" src="img/icons/git.png">
+                <h3>Git</h3>
+            </div>
+        </div>
+        <div class="col-sm-1 colcenter">
+            <div class="icon-box justify-content-center">
+                <img class="tech-icon" src="img/icons/github.png">
+                <h3>GitHub</h3>
+            </div>
+        </div>
+        <div class="col-sm-1 colcenter">
+            <div class="icon-box justify-content-center">
+                <img class="tech-icon" src="img/icons/gerrit.png">
+                <h3>Gerrit</h3>
+            </div>
+        </div>
+        <div class="col-sm-1 colcenter">
+            <div class="icon-box justify-content-center">
+                <img class="tech-icon" src="img/icons/arduino.png">
+                <h3>Arduino</h3>
+            </div>
+        </div>
+          <div class="col-sm-4 col "></div>
+    </div>
+  </div>
+
+
+
+  <h3 class="text-center ptop color_black">Database</h3>
+  <div class="">
+    <div class="languages row">
+      <div class="col-sm-5 col"></div>
+      <div class="col-sm-2 colcenter" >
+          <div class="icon-box justify-content-center">
+             <img class="tech-icon" src="img/icons/mysql.png">
+              <h3>MySql</h3>
+          </div>
       </div>
 
-      <div >
-        <h2 class="head_sub_skills">Topics</h2>
-        <ul class="sub_skills">
-          <li>Data Structure & Algorithms</li>
-          <li>Machine Learning</li>
-        </ul>
-      </div>
+        <div class="col-sm-5 col "></div>
+  </div>
+</div>
 
-      <div >
-        <h2 class="head_sub_skills">Tools</h2>
+<h3 class="text-center ptop color_black">Operating System</h3>
+<div class="">
+  <div class="languages row">
+    <div class="col-sm-4 col"></div>
+    <div class="col-sm-2 colcenter" >
+        <div class="icon-box justify-content-center">
+           <img class="tech-icon" src="img/icons/linux.png">
+            <h3>Linux</h3>
+        </div>
+    </div>
 
-        <ul class="sub_skills">
-          <li><img src="img/icons/git.png" alt="">Git</li>
-          <li><img src="img/icons/github.png" alt="">GitHub</li>
-          <li><img src="img/icons/gerrit.png" alt="">Gerrit</li>
-          <li><img src="img/icons/arduino.png" alt="">Arudino</li>
-        </ul>
-      </div>
+    <div class="col-sm-2 colcenter" >
+        <div class="icon-box justify-content-center">
+           <img class="tech-icon" src="img/icons/win.png">
+            <h3>Windows</h3>
+        </div>
+    </div>
 
-      <div >
-        <h2 class="head_sub_skills">Database</h2>
-        <ul class="sub_skills">
-          <li><img src="img/icons/mysql.png" alt="">MYSQL</li>
-        </ul>
-      </div>
-
-      <div >
-        <h2 class="head_sub_skills">Operating System</h2>
-        <ul class="sub_skills">
-          <li><img src="img/icons/ubuntu1.png" alt="">Linux(Ubuntu)</li>
-          <li><img src="img/icons/win.png" alt="">Windows</li>
-        </ul>
-      </div>
-
-      <div >
-        <h2 class="head_sub_skills">Libraries</h2>
-        <ul class="sub_skills">
-          <li><img src="img/icons/opencv1.png" alt="">OpenCV</li>
-          <li><img src="img/icons/tensor.png" alt="">Tensorflow</li>
-          <li><img src="img/icons/keras.png" alt="">Keras</li>
-        </ul>
-      </div>
+      <div class="col-sm-4 col "></div>
+</div>
+</div>
 
     </div>
 
-    <div class="education" id="education">
-      <div class="sub_education">
-        <h1>Education</h1>
-        <div class="edu_details">
-          <ul class="edu_list">
-            <li><h2 class="course_edu"><b>Bachelor of Technology</b> </h2></li>
-            <li><h3><b>School of Studies in Engineering and Technology, Guru Ghasidas Vishwavidyalaya</b></h5> </li>
-            <li><h5 class="duration_edu">(<b>Aug 2018 - present</b>)</h5></li>
-            <li><h5>Department: <b>Computer Science and Engineering</b></h5> </li>
-            <li><h5>CGPA: <b>8.5</b> </h5></li>
 
-          </ul>
+    <div class="education ptop" id="education">
+          <div class="sub_education">
+            <h1>Education</h1>
+            <div class="edu_details">
+              <ul class="edu_list ">
+                <li><h2 class="course_edu text-center">Bachelor of Technology </h2></li>
+                <li><h3>School of Studies in Engineering and Technology, Guru Ghasidas Vishwavidyalaya</h5> </li>
+                <li><h4 class="duration_edu text-center">(Aug 2018 - present)</h5></li>
+                <li><h4 class="text-center">Department: Computer Science and Engineering</h5> </li>
+                <li><h4 class="text-center">CGPA: 8.5 </h5></li>
+
+              </ul>
+            </div>
+
+            <div class="edu_details">
+              <ul class="edu_list">
+                <li><h2 class="course_edu text-center">Higher Secondary School Certificate</h2></li>
+                <li><h3 class=" text-center">Progressive Junior Science College, Gondia(MH)</h3> </li>
+                <li><h4 class="duration_edu text-center">(June 2017 - May 2018)</h5> </li>
+              <!--  <li><h5>Subjects: <b>Mathamatics, Physics, Chemistry, English, Computer Science</b></h5> </li>  -->
+                <li><h4 class=" text-center">Percentage: 88.15%</h5> </li>
+              </ul>
+            </div>
+
+            <div class="edu_details">
+              <ul class="edu_list">
+                <li><h2 class="course_edu text-center">Secondary School Certificate</h2></li>
+                <li>  <h3 class=" text-center">Gujarati National High School, Gondia(MH) </h3> </li>
+                <li>  <h4 class="duration_edu text-center">(June 2015 - May 2016)</h5></li>
+                <li>  <h4 class=" text-center">Percentage  : 89.98% </h5>  </li>
+              </ul>
+            </div>
+          </div>
         </div>
 
-        <div class="edu_details">
-          <ul class="edu_list">
-            <li><h2 class="course_edu"><b>Higher Secondary School Certificate</b></h2></li>
-            <li><h3><b>Progressive Junior Science College, Gondia(MH)</b></h3> </li>
-            <li><h5 class="duration_edu">(<b>June 2017 - May 2018</b>)</h5> </li>
-          <!--  <li><h5>Subjects: <b>Mathamatics, Physics, Chemistry, English, Computer Science</b></h5> </li>  -->
-            <li><h5>Percentage: <b>88.15%</b></h5> </li>
-          </ul>
+        <div class="intern" id="intern">
+          <div class="sub_intern">
+            <h1 class="">Internships</h1>
+
+            <div class="intern_name">
+              <ul class="intern_list">
+                <li> <h3>Algorithm and Data Structure Developer, Intern</h3> <a href="https://discourse.opengenus.org/"><h4>(OpenGenus)</h4></a> </li>
+                <li>May 2021 - Present</li>
+                <li> <p>Writing articles, Working on development tasks regarding DSA</p> </li>
+              </ul>
+            </div>
+
+            <div class="intern_name">
+              <ul class="intern_list">
+                <li> <h3>Data Science and Analytics intern</h3> <a href="https://thesparksfoundationsingapore.org/"><h4>(The Sparks Foundation)</h4></a> </li>
+                <li>Sept 2020 - Oct 2020</li>
+                <li> <p>Completed tasks that include exploring algorithms, creating ML models.</p> </li>
+              </ul>
+            </div>
+
+          </div>
         </div>
 
-        <div class="edu_details">
-          <ul class="edu_list">
-            <li><h2 class="course_edu"><b>Secondary School Certificate</b></h2></li>
-            <li>  <h3><b>Gujarati National High School, Gondia(MH)</b> </h3> </li>
-            <li>  <h5 class="duration_edu">(<b>June 2015 - May 2016</b>)</h5></li>
-            <li>  <h5>Percentage  : <b>89.98%</b> </h5>  </li>
-          </ul>
-        </div>
-      </div>
-    </div>
+        <div class="experience" id="experience">
+          <div class="sub_exp">
+            <h1>Experiences</h1>
 
-    <div class="intern" id="intern">
-      <div class="sub_intern">
-        <h1>Internships</h1>
+            <div class="exp_name">
+              <ul class="exp_list">
+                <li> <h3>Competitive Programming Club Lead </h3> <a href="https://dscggv.github.io/"> <h4>(Developer Student Clubs - GGV)</h4> </a>  </li>
+                <li>Oct 2020 - present</li>
+                <li>Develop logical and problem solving skills, Organize workshops, Competitions related to Competitive Coding.</li>
+              </ul>
+            </div>
 
-        <div class="intern_name">
-          <ul class="intern_list">
-            <li> <h3>Algorithm and Data Structure Developer, Intern</h3> <a href="https://discourse.opengenus.org/"><h4>(OpenGenus)</h4></a> </li>
-            <li>May 2021 - Present</li>
-            <li> <p>Writing articles, Working on development tasks regarding DSA</p> </li>
-          </ul>
-        </div>
+            <div class="exp_name">
+              <ul class="exp_list">
+                <li> <h3>Tech. Event Coordinator</h3> <a href="#"><h4>(GIRLSCRIPT - Chapter Bilaspur )</h4> </a> </li>
+                <li>June 2020 - present</li>
+                <li>Conduct Technical events, Organize workshops for awareness about Technology.</li>
+              </ul>
+            </div>
 
-        <div class="intern_name">
-          <ul class="intern_list">
-            <li> <h3>Data Science and Analytics intern</h3> <a href="https://thesparksfoundationsingapore.org/"><h4>(The Sparks Foundation)</h4></a> </li>
-            <li>Sept 2020 - Oct 2020</li>
-            <li> <p>Completed tasks that include exploring algorithms, creating ML models.</p> </li>
-          </ul>
-        </div>
+            <div class="exp_name">
+              <ul class="exp_list">
+                <li> <h3>Graphic Designer </h3> <a href="#"><h4>(EQUILIBRIO 2k20 (Techfest))</h4></a>  </li>
+                <li>Dec 2019 - Feb 2021</li>
+                <li>Create Graphics and Illustrations for Techfest.</li>
+              </ul>
+            </div>
 
-      </div>
-    </div>
-
-    <div class="experience" id="experience">
-      <div class="sub_exp">
-        <h1>Experiences</h1>
-
-        <div class="exp_name">
-          <ul class="exp_list">
-            <li> <h3>Competitive Programming Club Lead </h3> <a href="https://dscggv.github.io/"> <h4>(Developer Student Clubs - GGV)</h4> </a>  </li>
-            <li>Oct 2020 - present</li>
-            <li>Develop logical and problem solving skills, Organize workshops, Competitions related to Competitive Coding.</li>
-          </ul>
+          </div>
         </div>
 
-        <div class="exp_name">
-          <ul class="exp_list">
-            <li> <h3>Tech. Event Coordinator</h3> <a href="#"><h4>(GIRLSCRIPT - Chapter Bilaspur )</h4> </a> </li>
-            <li>June 2020 - present</li>
-            <li>Conduct Technical events, Organize workshops for awareness about Technology.</li>
-          </ul>
-        </div>
 
-        <div class="exp_name">
-          <ul class="exp_list">
-            <li> <h3>Graphic Designer </h3> <a href="#"><h4>(EQUILIBRIO 2k20 (Techfest))</h4></a>  </li>
-            <li>Dec 2019 - Feb 2021</li>
-            <li>Create Graphics and Illustrations for Techfest.</li>
-          </ul>
-        </div>
 
-      </div>
-    </div>
 
-      <div class="all_projects" id="all_project">
+
+
+        <div class="all_projects" id="all_project">
         <div class="all_projects_sub">
-        <h1>Projects</h1>
+        <h1>Project</h1>
 
         <div class="project row">
           <div class="pro_image col-sm-3">
@@ -203,8 +300,9 @@
             <h2>Augmented Reality </h2>
             <a href="https://github.com/ViKrAm-Bais/OpenCV_and_ArucoMarker.git">(Project link)</a>
             <p class="secsubtag"> (Tools: OpenCV, Python, Aruco Marker)  Project detects aruco marker, predicts its orientation and then shows a 3d object or 2d image over the Aruco marker.
-            </p>
-          </div>
+ </p>
+
+            </div>
         </div>
 
         <div class="project row">
@@ -214,8 +312,10 @@
           <div class="pro_content col-sm-9">
             <h2>Cat vs Dog Image Classifier</h2>
             <a href="https://github.com/ViKrAm-Bais/cat_vs_dog_image_classifier">(Project link)</a>
-            <p class="secsubtag">(Tools: CNN, Tensorflow, Keras, Python) Project uses CNN to classify images of Cat and Dog.
-            </p>
+
+            <p class="secsubtag">(Tools: CNN, Tensorflow, Keras, Python)
+Project uses CNN to classify images of Cat and Dog.
+</p>
           </div>
         </div>
 
@@ -233,10 +333,11 @@
         </div>
 
         <div class="project row">
-          <div class="pro_image col-sm-3">
+
+          <div class="pro_image col-md-3 col-lg">
             <img class="img-fluid" src="img/calc.png" alt="pro_image">
           </div>
-          <div class="pro_content col-sm-9">
+          <div class="pro_content col-md-9 col-lg">
             <h2>Basic calculator</h2>
             <a href="https://github.com/ViKrAm-Bais/Basic_Calcualtor.git">(Project link)</a>
 
@@ -249,19 +350,67 @@
 
       </div>
 
-      <footer>
-        <div class="contact">
-          <h1 id=contact>Contact me</h1>
-          <ul class="contact_icons">
-            <li> <span > <a href="https://github.com/ViKrAm-Bais"><i class="fa fa-github"> </i></a> </span> </li>
-            <li> <span > <a href="https://www.instagram.com/vikram_bais/"><i class="fa fa-instagram"></i></a> </span> </li>
-            <li> <span > <a href="https://twitter.com/VikramBais3"><i class="fa fa-twitter"></i></a> </span> </li>
-            <li> <span > <a href="https://www.linkedin.com/in/vikram-bais/"><i class="fa fa-linkedin"> </i></a> </span> </li>
-            <li> <span > <a href="https://mail.google.com/a/?view=cm&fs=1&to=vikrambais02@gmail.com"><i class="fa fa-envelope-square"></i></a> </span> </li>
-          </ul>
+
+
+
+            <h3 class="text-center ptop pbot color_white" id="contact">Contact</h3>
+            <div class="pbot container">
+              <div class="languages container row">
+
+                <div class="col-sm-4 colcentericon"></div>
+
+
+                <div class="col-sm-4 colcentericon">
+                  <div class="col-sm-1 colcentericon">
+                      <div class="icon-box ">
+                          <span > <a class="icon_color"  href="https://github.com/ViKrAm-Bais"><i class="fab fa-github fa-3x"> </i></a> </span>
+                      </div>
+                  </div>
+
+                  <!-- <div class="col-sm-1 colcentericon">
+                      <div class="icon-box justify-content-center">
+                          <span > <a href="https://www.instagram.com/vikram_bais/"><i class="fab fa-instagram fa-3x"></i></a> </span>
+                      </div>
+                  </div> -->
+                  <div class="col-sm-1 colcentericon">
+                      <div class="icon-box ">
+                          <span > <a  class="icon_color" href="https://twitter.com/VikramBais3"><i class="fab fa-twitter  fa-3x"></i></a> </span>
+                      </div>
+                  </div>
+                  <div class="col-sm-1 colcentericon">
+                      <div class="icon-box ">
+                          <span > <a class="icon_color"  href="https://www.linkedin.com/in/vikram-bais/"><i class="fab fa-linkedin fa-3x"> </i></a> </span>
+                      </div>
+                  </div>
+                  <div class="col-sm-1 colcentericon">
+                      <div class="icon-box ">
+                          <span > <a class="icon_color" href="https://mail.google.com/a/?view=cm&fs=1&to=vikrambais02@gmail.com"><i class="fa fa-envelope-square fa-3x"></i></a> </span>
+                      </div>
+                  </div>
+                </div>
+                  <div class="col-sm-4 colcentericon"></div>
+            </div>
+          </div>
+
+
+
         </div>
-      </footer>
-    </div>
-    <div class="the_end">
+        </div>
+        <div class="the_end">
+
+        </div>
+        <script>
+        $('button.navbar-toggle').focusout(function(){
+            $(".navbar-collapse").collapse('hide');
+        });
+
+        </script>
+
+
+
   </body>
 </html>
+
+
+
+<!-- style="display: flex; flex-flow: row wrap;stify-content: center;" -->
